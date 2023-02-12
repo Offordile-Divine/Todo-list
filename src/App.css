@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: azure;
+}
+
+.App {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}
+
+.todo-title {
+  margin: 0;
+  padding: 20px;
+  font-size: 40px;
+  font-family: sans-serif, 'poppins';
+}
+
+input {
+  padding: 4px;
+  margin-right: 8px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-family: sans-serif, 'poppins';
+  font-weight: 800;
+  color: blueviolet;
+}
+
+.add {
+  color: blue;
+  font-family: sans-serif, 'poppins';
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    font-family: sans-serif, 'poppins';
+    padding-top: 10px;
+    color: blue;
+}
+
+li button {
+  color: red;
+  font-family: sans-serif, 'poppins';
+}
